@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.hero__header {
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .hero__header h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: var(--headlineBig);
+    color: var(--primaryTextColor);
+  }
+  
+  .hero__header h2 {
+    letter-spacing: var(--headlineSmall);
+    font-size: var(--headlineSmall);
+    text-transform: uppercase;
+    color: var(--primaryColor);
+  }
+  .project-header{
+    font-size: 5rem;
+    color: #000;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: .1rem;
+    text-align: center;
+  }
+  
+  .scroll-section-outer {
+    overflow: hidden;
+  }
+  
+  .scroll-section-inner {
+    background-color: lightcoral;
+    height: 50vh;
+    width: 200vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .scroll-section {
+    background-color: #FEFFD2;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .scroll-section h3 {
+    text-transform: uppercase;
+  }
+  .card__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    height:100%;
+    width:100%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
+  }
+  .card__content img:hover{
+    transform: scale(1.05);
+    transition: all .5s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+  }
+  .card__content img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    background-color: #Fff;
+    border-radius: 20px;
+  }
+    .card__content h3{
+        font-size: 1.5rem;
+        color: #000;
+        padding: 1rem;
+        font-weight: bold;
+        margin-top: .1rem;
+
+    }
+  
+  
+  
+  .footer {
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD0D0 ;
+    border-radius:20px;
+  }
+  
+  .footer span {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: var(--headlineBig);
+    color: #666666;
+  }
+  .image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /* styles/Info.module.css */
+.container {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+  .title {
+    font-size: 60px;
+    font-weight: light;
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+  }
+  
+  .leftColumn {
+    flex: 1;
+  }
+  
+  .rightColumn {
+    flex: 2;
+  }
+  
+  .sectionTitle {
+    font-weight: bold;
+    color: #666666;
+  }
+  
+  .readMore {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust gap between cards as needed */
+    margin:1rem;
+    text-align: center;
+}
+.card_header_title{
+    font-size: 5rem;
+    color: #000;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: .1rem;
+}
+
+  .card {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: #F8FBFE;
+    border-radius: 8px;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   .card:hover{
+    transform: scale(1.05);
+    transition: all .5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+   }
+   .card h1{
+    font-size: 1.5rem;
+    color: #000;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: .1rem;
+   }
+   .card_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+   }
+   .footer-card{
+    height:50vh;
+    width:100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+   }
+   .footer-card .projectText{
+    font-family: 'Montserrat', cursive;
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: .1rem;
+    text-transform: uppercase;
+    text-align: left;
+   }
+   .chatText{
+    font-family: 'Montserrat', cursive;
+    font-size: 5rem;
+    color: #fff;
+    padding: 1rem;
+    margin-top: .1rem;
+    text-transform: uppercase;
+    text-align: left;
+   }
+   .footer-link{
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: .1rem;
+    text-align: left;
+   }
+   .footer-link span{
+    padding: 1rem;
+   }
+   .footer-email{
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+   }
+   
+  
+
+  
